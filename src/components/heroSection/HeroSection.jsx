@@ -9,7 +9,7 @@ function HeroSection() {
     // Define the background image URL
     const backgroundImageUrl = mode === 'light' 
         ? 'url("src/assets/linkedin 4.png")' 
-        : 'url("your-dark-image-url.jpg")'; // Change 'your-dark-image-url.jpg' to your actual dark image URL
+        : 'url("src/assets/linkedin 4.png")'; // Change 'your-dark-image-url.jpg' to your actual dark image URL
 
     return (
         <section
