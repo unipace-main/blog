@@ -8,10 +8,11 @@ import {
 } from "@material-tailwind/react";
 import { useContext } from "react";
 import { Link } from "react-router-dom";
-import { AiOutlineShareAlt, AiOutlineSearch } from 'react-icons/ai'
+// import { AiOutlineShareAlt, AiOutlineSearch } from 'react-icons/ai'
 import myContext from "../../context/data/myContext";
 import SearchDialog from "../searchDialog/SearchDialog";
 import ShareDialogBox from "../shareDialogBox/ShareDialogBox";
+import MainLogo from "../../assets/favicon.png"
 
 
 export default function Nav() {
@@ -83,7 +84,7 @@ export default function Nav() {
                             {/* Logo Image  */}
                             <img
                                 className=' w-10 h-10 '
-                                src='src\assets\favicon.png'
+                                src={MainLogo}
                             />
                             {/* Logo Text  */}
                             <span>
